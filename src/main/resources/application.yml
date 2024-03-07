@@ -20,4 +20,4 @@ server:
 google:
   places:
     api:
-      key: AIzaSyBF0a4-ImAmG2-K4sxwFtOpUCMBNn5zzFg
+      key:  ${GOOGLE_PLACE_API_KEY}

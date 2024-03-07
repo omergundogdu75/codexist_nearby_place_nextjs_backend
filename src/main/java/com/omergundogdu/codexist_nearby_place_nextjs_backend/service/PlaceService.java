@@ -16,6 +16,7 @@ import java.util.List;
 public class PlaceService {
 
     private final PlaceRepository repository;
+
     private final RestTemplate restTemplate;
 
     @Value("${google.places.api.key}")
