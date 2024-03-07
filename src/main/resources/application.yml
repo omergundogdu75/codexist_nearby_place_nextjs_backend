@@ -1,5 +1,4 @@
 spring:
-
   datasource:
     url: jdbc:postgresql://localhost:5432/nearby_place_db
     driver-class-name: org.postgresql.Driver
@@ -14,3 +13,11 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8070
+
+google:
+  places:
+    api:
+      key: AIzaSyBF0a4-ImAmG2-K4sxwFtOpUCMBNn5zzFg
